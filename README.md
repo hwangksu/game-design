@@ -1,2 +1,2 @@
 # game-design
-use processing 3
+use processing 3 IDE
