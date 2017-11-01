@@ -1,3 +1,7 @@
+//由這個網頁抄來的
+//http://belleaya.pixnet.net/blog/post/31860741-%5B%E6%95%99%E5%AD%B8%5D-%5B%E7%A8%8B%E5%BC%8F%5D-%E7%94%A8processing%E5%AF%AB%E7%89%B9%E8%A8%9399
+//這裡有他的討論區
+//https://www.facebook.com/belleaya/posts/230634663748811?ref=notif&notif_t=share_comment
 int mapSizex=480; //地圖x軸寬度
 int mapSizey=480; //地圖y軸寬度
 int playerx=mapSizex/2,playery=mapSizey/2; //玩家位置
