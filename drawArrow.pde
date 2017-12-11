@@ -1,11 +1,10 @@
-// 指針式
 int x,y;
-float ang;
-int im2;
-String m2="30";
+float ang1;
+int img21;
+//String m2="30";
 // im2=Integer.parseInt(m2);
-im2=int(m2);
-
+// im2=int(m2);
+img21=10;
 void setup(){
 size(800,800);
 }
@@ -18,7 +17,7 @@ ang=map(im2,0,50,3*PI/2,PI/2);
 // rectMode(CORNERS);
 //ellipse(400,400,10,10);
 //line(400,400,x,y);
-drawArrow(400,400,100,ang);
+draw1Arrow(400,400,100,ang);
 stroke(0);
 textSize(30);
 textAlign(CENTER);
@@ -30,7 +29,7 @@ text(i,x,y);
 }
 }
 
-void drawArrow(int cx, int cy, int len, float angle){
+void draw1Arrow(int cx, int cy, int len, float angle){
   pushMatrix();
   translate(cx, cy);
   rotate(radians(angle));
